@@ -1,5 +1,15 @@
-
 # API Project: Timestamp Microservice for FCC
+
+A full-stack JavaScript web development project. I wrote a blog post about the project, where you can read about programming concepts I used and about app's features and functionality. You can find it on my [medium profile]().
+
+## Technologies used
+* Node.JS
+* API
+* JSON
+* React.JS
+* JavaScript 
+* HTML5
+* CSS3
 
 ### User stories :
 
