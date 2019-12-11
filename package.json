@@ -1,7 +1,7 @@
 {
-  "name": "fcc-api-projects-boilerplate",
+  "name": "full_stack_project",
   "version": "0.0.1",
-  "description": "An FCC Backend Challenge",
+  "description": "API project",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
@@ -20,8 +20,7 @@
   "keywords": [
     "node",
     "hyperdev",
-    "express",
-    "freecodecamp"
+    "express"
   ],
   "license": "MIT"
 }
