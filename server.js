@@ -16,17 +16,17 @@ app.use(express.static('public'));
 
 // routing--how the app responds to a client request to a particular endpoint
 // when the route is matched, the handler function is executed--responds with the index.html file
-app.get("/", function (req, res) {
+app.get("/", (req, res) => {
   res.sendFile(__dirname + '/views/index.html');
 });
 
 // first test API endpoint 
-app.get("/api/hello", function (req, res) {
+app.get("/api/hello", (req, res) => {
   res.json({greeting: 'hello API'});
 });
 
 // API endpoint as requested in user stories
-app.get("/api/timestamp/:dateString?", function (req, res) {
+app.get("/api/timestamp/:dateString?", (req, res) => {
   const chosenDate = req.params.dateString;
   let date;
   // if the chosen date is an empty string choose current time
@@ -57,6 +57,6 @@ app.get("/api/timestamp/:dateString?", function (req, res) {
 })
 
 // listen for requests
-const listener = app.listen(process.env.PORT, function () {
+const listener = app.listen(process.env.PORT, () => {
   console.log('Your app is listening on port ' + listener.address().port);
 });
