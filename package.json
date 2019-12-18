@@ -1,5 +1,5 @@
 {
-  "name": "full_stack_project",
+  "name": "timestamp_microservice",
   "version": "0.0.1",
   "description": "API project",
   "main": "server.js",
